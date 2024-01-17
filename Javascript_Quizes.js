@@ -23,7 +23,7 @@ function exams_status( total_marks, is_exams)
     }
     return(total_marks >= 89 && total_marks <= 100);
 }
-console.log(exams_status("78", ""))
+console.log(exams_status("69", ""))
 //Results:false 
 //Question2
 //This is not my full understnding of the question but an attempt.
