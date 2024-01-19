@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+//make a list
+const para = document.createElement('p')
+para.textContent = "Hello, welcome to my page"
+//to append the child created as 'p'
+document.body.appendChild(para)
+
+//making a list
+const list = document.createElement('ul')
+
+
+const list1 = document.createElement('li')
+const list2 = document.createElement('li')
+const list3 = document.createElement('li')
+
+//Adding some content
+ list1.textContent = "Water" 
+ list2.textContent = "Milk"
+ list3.textContent = "Choco"
+
+ 
+list.appendChild(list1)
+list.appendChi(list2)
+list.appendChild(list3)
+//Targeting the children
+document.body.appendChild(list)
+
+
+
+</script>
+</html>
