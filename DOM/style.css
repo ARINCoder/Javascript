@@ -1,0 +1,25 @@
+body { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 223, 223);
+    margin: 100px;
+border: 1px solid black;}
+h1{
+    display: flex;
+    font-size: 100px;
+}
+#firstNumber{
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-style: italic;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+
+}

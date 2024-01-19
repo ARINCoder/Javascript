@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JavaScript program for multiplication </title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Vanillas' Calculator</h1>
+<form>
+<h2> Price($) : <input type="number" id="firstNumber" /> </h2>
+<br>
+<h3> Quantity : <input type="number" id="secondNumber" /><br> </h3>
+<input type="button" onClick="multiplyBy()" value="Multiply" />
+<p id="result"> </p>
+</form>
+<script>
+function multiplyBy() {
+// Get the values of the input fields
+number1 = document.getElementById("firstNumber").value;
+number2 = document.getElementById("secondNumber").value;
+
+let product = number1 * number2;
+
+// Display the result in the element with the id "result"
+document.getElementById("result").textContent = product;
+}
+</script>
+</body>
+</html>
